@@ -42,17 +42,33 @@ export function Home() {
       />
 
       <View style={styles.levels}>
-        <Level title="Fácil" type="EASY" onPress={() => handleLevelFilter(1)} isChecked={levels.includes(1)} />
-        <Level title="Médio" type="MEDIUM" onPress={() => handleLevelFilter(2)} isChecked={levels.includes(2)} />
-        <Level title="Difícil" type="HARD" onPress={() => handleLevelFilter(3)} isChecked={levels.includes(3)} />
+        <Level
+          title="Fácil"
+          type="EASY"
+          onPress={() => handleLevelFilter(1)}
+          isChecked={levels.includes(1)}
+        />
+        <Level
+          title="Médio"
+          type="MEDIUM"
+          onPress={() => handleLevelFilter(2)}
+          isChecked={levels.includes(2)}
+        />
+        <Level
+          title="Difícil"
+          type="HARD"
+          onPress={() => handleLevelFilter(3)}
+          isChecked={levels.includes(3)}
+        />
       </View>
 
       <FlatList
         data={quizzes}
         keyExtractor={item => item.id}
-        renderItem={({ item }) => (
+        renderItem={({ item, index }) => (
           <QuizCard
             data={item}
+            index={index}
             onPress={() => navigate('quiz', { id: item.id })}
           />
         )}

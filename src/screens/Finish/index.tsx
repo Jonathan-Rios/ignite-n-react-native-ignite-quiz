@@ -1,5 +1,6 @@
 import { Text, View } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
+import { Stars } from '../../components/Stars';
 
 import { Button } from '../../components/Button';
 
@@ -19,19 +20,16 @@ export function Finish() {
   return (
     <View style={styles.container}>
       <View style={styles.message}>
-        <Text style={styles.title}>
-          Parabéns!
-        </Text>
+        <Stars />
+
+        <Text style={styles.title}>Parabéns!</Text>
 
         <Text style={styles.subtitle}>
           Você acertou {points} de {total} questões
         </Text>
       </View>
 
-      <Button
-        title="Ir para o início"
-        onPress={() => navigate('home')}
-      />
+      <Button title="Ir para o início" onPress={() => navigate('home')} />
     </View>
   );
 }
