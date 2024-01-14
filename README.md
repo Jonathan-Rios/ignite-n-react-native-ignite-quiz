@@ -121,7 +121,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 
   # Lib para usar Vibração
   ➜ npx expo install expo-haptics
----
+```
+
 <br />
 
 <a href="https://github.com/Jonathan-Rios">
