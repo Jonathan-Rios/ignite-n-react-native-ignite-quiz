@@ -25,9 +25,9 @@
 
 <div align="center">
 
-  ![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/ignite-n-react-native-ignite-shoes?color=4DA1CD 'Last commit') &nbsp;
-  ![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/ignite-n-react-native-ignite-shoes?color=4DA1CD 'Repo size') &nbsp;
-  ![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/ignite-n-react-native-ignite-shoes?color=4DA1CD 'Languages') &nbsp;
+  ![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/ignite-n-react-native-ignite-quiz?color=4DA1CD 'Last commit') &nbsp;
+  ![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/ignite-n-react-native-ignite-quiz?color=4DA1CD 'Repo size') &nbsp;
+  ![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/ignite-n-react-native-ignite-quiz?color=4DA1CD 'Languages') &nbsp;
 
 </div>
 
@@ -46,10 +46,7 @@ Descrição do projeto:
 Essa aplicação foi desenvolvida para estudos seguindo os ensinamentos da **[Rocketseat](https://www.rocketseat.com.br/)** no curso Ignite **[Ignite](https://www.rocketseat.com.br/ignite)** .
  
 
-O foco da aplicação foi abordar:
-  Animações com react-native-reanimated e react-native-skia
-  Microinterações
-  Feedback visuais, Tátil e Sonoro
+O foco da aplicação foi abordar: animações, microinterações, feedback visuais, tátil e sonoro.
 
 ## 🧪 Tecnologias
 
@@ -69,9 +66,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/Jonathan-Rios/ignite-n-react-native-ignite-shoes.git
+$ git clone https://github.com/Jonathan-Rios/ignite-n-react-native-ignite-quiz.git
 
-$ cd ignite-n-react-native-ignite-shoes
+$ cd ignite-n-react-native-ignite-quiz
 ```
 
 Para iniciá-lo, siga os passos abaixo:
